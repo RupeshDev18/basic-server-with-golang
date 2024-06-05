@@ -1,0 +1,15 @@
+body {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+li {
+  list-style-type: square;
+  text-transform: capitalize;
+  margin: 10px;
+  padding: 3px;
+  width: 200px;
+}

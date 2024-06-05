@@ -1,0 +1,26 @@
+a {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4634d0;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+body {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}

@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form action="/form" method="post">
-      <div class="title">Enter Name and Address</div>
+    <form action="/addGuest" method="post">
+      <div class="title">Enter Guest's Details</div>
       <div class="input-container ic1">
         <input
           id="name"
@@ -19,21 +18,22 @@
           placeholder=" "
         />
         <div class="cut"></div>
-        <label for="name" class="placeholder">Name</label>
+        <label for="name" class="placeholder">First name</label>
       </div>
       <div class="input-container ic2">
         <input
-          id="address"
+          id="message"
           class="input"
           type="text"
-          name="address"
+          name="message"
           placeholder=" "
         />
         <div class="cut"></div>
-        <label for="address" class="placeholder">address</label>
+        <label for="message" class="placeholder">Message</label>
       </div>
 
       <button type="submit" class="submit">submit</button>
     </form>
+    <a href="./guestList">See Guest List</a>
   </body>
 </html>
